@@ -1,0 +1,135 @@
+/* ฟอนต์สไตล์หรูหราดุดัน */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Kanit:wght@300;400;600&display=swap');
+
+/* สีพื้นหลังไล่เฉดโทนดำ-น้ำตาลทอง หรูหราทรงพลัง */
+body {
+  background: linear-gradient(135deg, #0d0903 0%, #2a1a08 50%, #120b02 100%);
+  color: #fef08a;
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* คอนเทนเนอร์กรอบการ์ดทองคำแบบเงางาม */
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(20, 13, 4, 0.85);
+  border: 2px solid #eab308;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(234, 179, 8, 0.25), inset 0 0 15px rgba(253, 224, 71, 0.1);
+}
+
+/* หัวข้อประจำแฟนไซต์สไตล์การ์ดตำนาน */
+header {
+  background: linear-gradient(90deg, #451a03 0%, #78350f 50%, #451a03 100%);
+  border: 2px solid #fde047;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(234, 179, 8, 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  color: #fef08a;
+  text-shadow: 0 0 10px #eab308, 0 0 20px #ca8a04;
+  letter-spacing: 2px;
+}
+
+header p {
+  color: #fef9c3;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* หัวข้อข้อความ H2, H3 สไตล์ทองคำเปลว */
+h2, h3 {
+  font-family: 'Cinzel', serif;
+  color: #fef08a;
+  text-shadow: 0 0 8px rgba(234, 179, 8, 0.6);
+  border-bottom: 2px solid #ca8a04;
+  padding-bottom: 6px;
+  margin-top: 25px;
+}
+
+/* รูปภาพ Idol (CR7) เรืองแสงทองคำ */
+.fan-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 3px solid #fde047;
+  display: block;
+  margin: 15px 0;
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.4);
+}
+
+/* ตารางข้อมูลสถิติ / สโมสร */
+table {
+  width: 100%;
+  background-color: rgba(15, 10, 3, 0.9);
+  border-collapse: collapse;
+  margin-top: 10px;
+  border: 1px solid #ca8a04 !important;
+}
+
+th, td {
+  border: 1px solid #854d0e;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+th {
+  background: linear-gradient(180deg, #a16207 0%, #713f12 100%);
+  color: #fffbeb;
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(69, 26, 3, 0.3);
+}
+
+/* ลิสต์รายการเน้นจุดสีทองดาว */
+ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+ul li::marker {
+  color: #fde047;
+  font-size: 18px;
+}
+
+/* เส้นแบ่ง <hr> แสงทองเปล่งประกาย */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fde047, transparent);
+  margin: 25px 0;
+}
+
+/* ลิงก์สีทอง */
+a {
+  color: #fde047;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px #fde047;
+}
+
+footer {
+  text-align: center;
+  color: #d97706;
+  font-size: 14px;
+}
